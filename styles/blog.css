@@ -1,8 +1,6 @@
 body {
   background-image: url(https://images.unsplash.com/photo-1530569673472-307dc017a82d?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
-  margin: 0;
-  padding: 0;
 }
 
 nav {
@@ -86,96 +84,6 @@ h1 {
   opacity: 0.7;
 }
 
-#about {
-  font-family: mynerve;
-  font-size: 5rem;
-  text-align: center;
-  color: #151720;
-  font-weight: 300;
-  opacity: 0.7;
-}
-
-#intro {
-  font-family: Pacifico;
-  text-align: center;
-  font-size: 3rem;
-  color: #0a2a52;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
-}
-
-.text {
-  flex: 1;
-  display: flex;
-  text-align: justify;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 60px;
-}
-
-aside {
-  margin-left: 40px;
-}
-
-p,
-.link-list {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #0a2a52;
-  font-size: 1.5rem;
-}
-
-.link-list {
-  font-weight: bolder;
-  opacity: 0.8;
-}
-
-h2 {
-  font-family: pacifico;
-  color: #0a2a52;
-  font-weight: 800;
-  font-size: 3rem;
-}
-
-.content {
-  display: flex;
-  flex: 1;
-  margin: 65px 25px 65px 25px;
-  padding: 35px 20px 35px 20px;
-}
-img {
-  max-width: 100%;
-}
-
-.blog {
-  margin: 65px 25px 65px 25px;
-  padding: 35px 20px 35px 20px;
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 65px 25px 65px 25px;
-  padding: 35px 20px 35px 20px;
-}
-
-.contacts {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-  align-items: center;
-  margin: 65px 25px 65px 25px;
-  padding: 35px 20px 35px 20px;
-}
-
-.contacts img {
-  margin: 0 10px;
-  max-width: 100%;
-}
-
 footer {
   margin-top: 60px;
   padding: 25px;
@@ -184,47 +92,60 @@ footer {
   color: #53585caf;
 }
 
-#email {
+h2 {
+  font-family: pacifico;
+  font-size: 3rem;
   color: #0a2a52;
-  text-decoration: underline;
+  text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  .circle {
-    margin: 0 auto;
-  }
-  .contacts {
-    width: auto;
-  }
+h3,
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0a2a52;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-}
-
-@media only screen and (min-width: 1025px) {
-}
-
-nav a {
+pre code {
+  background-color: #c3d3de;
+  border: 2px solid #2560b3;
   display: block;
-  margin-bottom: 10px;
+  padding: 20px;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  article {
-    padding: 15px;
-  }
+main {
+  padding: 20px;
+}
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-@media only screen and (min-width: 1025px) {
-  header {
-    padding: 30px;
-  }
+.concept {
+  margin-top: 50px;
+}
 
-  nav a {
-    padding: 15px 30px;
-  }
+.tech-posts {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  color: #0a2a52;
+}
+
+.post {
+  border: #0a2a52;
+  background-color: #aec4dc;
+  padding: 15px;
+  border-style: solid;
 }

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gio - My blog</title>
+    <link rel="stylesheet" href="../styles/blog.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>my blog: tales from the keyboard</h1>
+      <nav>
+        <div class="circle">
+          <span class="letter">GIO</span>
+        </div>
+        <a
+          class="pages"
+          href="/Users/giovannigomezambriz/devacademy/giovanni-ambriz.github.io/index.html#about"
+          >about</a
+        >
+        <div class="dropdown pages">
+          <button class="dropbtn">blog posts</button>
+          <div class="dropdown-content">
+            <a
+              href="/Users/giovannigomezambriz/devacademy/giovanni-ambriz.github.io/blog/techblog.html"
+              >tech posts</a
+            >
+            <a
+              href="/Users/giovannigomezambriz/devacademy/giovanni-ambriz.github.io/blog/coreblog.html"
+              >core posts</a
+            >
+          </div>
+        </div>
+        <a
+          class="pages"
+          href="/Users/giovannigomezambriz/devacademy/giovanni-ambriz.github.io/index.html#contact"
+          >contact</a
+        >
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>How absolute, relative, and fixed positioning differ</h2>
+        <p>
+          These types of positioning are like special rules we can use when
+          we're telling a website how to arrange things. Each one helps us put
+          things where we want them without messing up everything else on the
+          page.
+        </p>
+        <div class="concept">
+          <h3>RELATIVE</h3>
+          <p>
+            This is a bit like nudging a book a little to the left or right on a
+            shelf without moving everything else. The book stays in its place,
+            but you can adjust its position a bit. Other books on the shelf
+            still stay where they are, but the one you moved might look a little
+            different.
+          </p>
+          <p>Find an example of coding below:</p>
+          <pre>
+            <code>
+              .relative-positioned { 
+                position: relative; 
+                top: 20px; 
+                left: 20px;
+              }
+            </code>
+          </pre>        
+          <p>
+            This would mean that you move the book 20px top and 20px left from
+            its usual position in the bookshelf.
+          </p>
+        </div>
+        <div class="concept">
+          <h3>ABSOLUTE</h3>
+          <p>
+            It's like placing a picture frame on the wall exactly where you want
+            it, regardless of where other things are. You can put it in a
+            corner, in the middle, or anywhere you like, and it won't affect
+            where other pictures or furniture go. It's kind of like it has its
+            own special spot that doesn't bother anyone else.
+          </p>
+          <p>Example:</p>
+          <pre>
+            <code>
+              .absolute-positioned { 
+                position: absolute; 
+                top: 50px; 
+                left: 100px;
+              }
+          </code></pre>
+        </pre>
+          <p>
+            This rule would position the picture frame 50px to the top and 100px
+            to the left of the wall.
+          </p>
+        </div>
+        <div class="concept">
+          <h3>FIXED</h3>
+          <p>
+            Imagine you have a sticker you want to put on a window. It stays in
+            the same spot on the window no matter if you scroll down or move
+            around the room. It's like having something stuck to the glass that
+            doesn't move even if you move your head.
+          </p>
+          <p>An example of how to code a fixed positioning is:</p>
+          <pre>
+            <code>
+              .fixed-positioned { 
+                position: fixed; 
+                top: 0; 
+                right: 0; 
+              }
+            </code>
+          </pre>
+        </div>
+        <div>
+          <p>
+            In the image below you will find a graphic example of what each
+            positioning looks like on a webpage:
+          </p><br>
+          <img
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1658521527599/NpFet3SUH.jpg"
+          />
+        </div>
+      </article>
+    </main>
+    <footer>
+      <p>Created by Giovanni Ambriz</p>
+    </footer>
+  </body>
+</html>

@@ -1,9 +1,135 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>My blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gio - My blog</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <header>
+      <h1>my blog: tales from the keyboard</h1>
+      <nav>
+        <div class="circle">
+          <span class="letter">GIO</span>
+        </div>
+        <a class="pages" href="#about">about</a>
+        <div class="dropdown pages">
+          <button class="dropbtn">blog posts</button>
+          <div class="dropdown-content">
+            <a href=/Users/giovannigomezambriz/devacademy/giovanni-ambriz.github.io/blog/techblog.html>tech posts</a>
+            <a href="/Users/giovannigomezambriz/devacademy/giovanni-ambriz.github.io/blog/coreblog.html">core posts</a>
+          </div>
+        </div>
+        <a class="pages" href="#contact">contact</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div class="intro">
+          <h2 id="about">hello future coders...</h2>
+          <p id="intro">i am giovanni and you've step into my web world</p>
+        </div>
+        <div class="content">
+          <div class="text">
+            <p>
+              In this blog I'll share my experiences, insights, challenges, and
+              triumphs as I strive to master the art and science of building
+              modern web applications. Also, in this space you will find posts
+              about personal experiences and general topics I'm interested in
+              and that I would love to share with you.
+            </p>
+          </div>
+          <aside>
+            <img
+              src="https://st2.depositphotos.com/34809868/42782/i/450/depositphotos_427821032-stock-photo-world-wide-web-global-network.jpg"
+            />
+          </aside>
+        </div>
+      </article>
+      <article>
+        <div class="blog">
+          <h2 id="blogposts">blog posts</h2>
+          <p>
+            My blog contains a blend of technical insights and personal
+            reflections to inspire and inform.
+          </p>
+          <ul>
+            <li>
+              <a class="link-list" href="blog/techblog.html">tech posts</a>
+            </li>
+            <p>
+              It's a section for in-depth explorations of web development tools,
+              frameworks, and coding techniques, designed to sharpen your skills
+              and broaden your horizons.
+            </p>
+            <li>
+              <a class="link-list" href="blog/coreblog.html">core posts</a>
+            </li>
+            <p>
+              It's where I share my thoughts, experiences, and lessons learned
+              on this exhilarating journey of web development.
+            </p>
+          </ul>
+        </div>
+      </article>
+      <article>
+        <div class="contact-info">
+          <h2 id="contact">contact</h2>
+          <div class="text">
+            <p>
+              Feel free to reach out to me via email at
+              <a id="email" href="mailto:giovanni.ambriz@hotmail.com"
+                >giovanni.ambriz@hotmail.com</a
+              >
+              Additionally, you can connect with me on
+              <span style="font-weight: bold">Instagram</span> or
+              <span style="font-weight: bold">Discord</span> to stay updated on
+              my latest adventures and projects. I look forward to hearing from
+              you and sharing our mutual passion for web development and beyond!
+            </p>
+          </div>
+          <div class="contacts">
+            <a
+              class="contacts"
+              href="https://www.instagram.com/gio__ambriz/"
+              target="_blank"
+            >
+              <img
+                src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png"
+                alt="Instagram"
+                width="65"
+                height="50"
+              />
+            </a>
+            <a
+              class="contacts"
+              href="https://discord.gg/1202125649591160875"
+              target="_blank"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3670/3670325.png"
+                alt="Discord"
+                width="50"
+                height="50"
+              />
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>Created by Giovanni Ambriz</footer>
   </body>
 </html>
