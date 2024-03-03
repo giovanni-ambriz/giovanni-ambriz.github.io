@@ -100,7 +100,8 @@ h2 {
 }
 
 h3,
-p {
+p,
+li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #0a2a52;
 }
